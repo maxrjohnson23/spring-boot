@@ -10,8 +10,11 @@ public class PageController {
     @Value("${pageController.msg}")
     private String pageControllerMsg;
 
+    @Value("${my.secret}")
+    private String mySecret;
+
     @RequestMapping("/")
     public String home() {
-        return pageControllerMsg;
+        return mySecret;
     }
 }
