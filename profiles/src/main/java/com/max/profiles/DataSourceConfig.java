@@ -19,4 +19,9 @@ public class DataSourceConfig {
         return new DataSource("my-prod-url", 6306);
     }
 
+    @Bean(name = "datasource")
+    DataSource test() {
+        return new DataSource("my-prod-url", 6306);
+    }
+
 }

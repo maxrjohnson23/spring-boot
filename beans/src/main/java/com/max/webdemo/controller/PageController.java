@@ -1,6 +1,6 @@
-package com.max.controller;
+package com.max.webdemo.controller;
 
-import com.max.service.NotificationService;
+import com.max.webdemo.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.max.service;
+package com.max.webdemo.service;
 
 import org.springframework.stereotype.Service;
 
